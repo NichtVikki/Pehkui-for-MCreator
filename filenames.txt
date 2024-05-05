@@ -7,3 +7,4 @@ MultiplyScale
 DivideScale
 ResetScale
 pehkui
+MakePersistant
