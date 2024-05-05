@@ -1,0 +1,1 @@
+ScaleTypes.${field$scale}.getScaleData(${input$entity}).setTargetScale((float) ScaleOperations.DIVIDE.applyAsDouble(ScaleTypes.${field$scale}.getScaleData(${input$entity}).getTargetScale(), ${input$value}));

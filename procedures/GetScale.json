@@ -1,0 +1,46 @@
+{
+  "name": "GetScale",
+  "translation_key": "Get %2 of %1",
+  "type": 1,
+  "color": [
+    0.5729526877403259,
+    0.6715686321258545,
+    0.10863608866930008,
+    1.0
+  ],
+  "category": "Pehkui",
+  "category_index": 23,
+  "world_dependency": false,
+  "type_index": 5,
+  "required_api": "pehkui",
+  "versions": [
+    "1.20.4_NeoForge",
+    "1.20.1_Forge"
+  ],
+  "components": {
+    "entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    },
+    "scale": {
+      "type": 3,
+      "dropdown_options": [
+        "HEIGHT",
+        "WIDTH",
+        "ATTACK_SPEED",
+        "BLOCK_REACH",
+        "ENTITY_REACH",
+        "HEALTH",
+        "JUMP_HEIGHT",
+        "MINING_SPEED",
+        "DEFENSE",
+        "HITBOX_HEIGHT",
+        "HITBOX_WIDTH",
+        "REACH",
+        "THIRD_PERSON",
+        "VIEW_BOBBING"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+for (final ScaleType type : ScaleRegistries.SCALE_TYPES.values()){
+	type.getScaleData(${input$entity}).setPersistence(type.getScaleData(${input$entity}).getPersistence());
+	type.getScaleData(${input$entity}).resetScale();
+}

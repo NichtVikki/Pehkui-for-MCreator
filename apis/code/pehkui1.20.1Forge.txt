@@ -1,0 +1,42 @@
+repositories {
+    maven {
+        url = "https://jitpack.io"
+    }
+}
+
+dependencies {
+    implementation fg.deobf("com.github.Virtuoel:Pehkui:3.8.0-1.20.1-forge")
+}
+
+buildscript {
+    repositories {
+        maven {
+            url = "https://repo.spongepowered.org/repository/maven-public/"
+        }
+    }
+
+    dependencies {
+        classpath "org.spongepowered:mixingradle:0.7-SNAPSHOT"
+    }
+}
+
+minecraft {
+    runs {
+        client {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
+
+        server {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
+        data {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+        }
+    }
+}
+
+
+apply plugin: "org.spongepowered.mixin"

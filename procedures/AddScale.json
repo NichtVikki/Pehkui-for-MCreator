@@ -1,0 +1,51 @@
+{
+  "name": "AddScale",
+  "translation_key": "Add %3 %2 to %1",
+  "type": 0,
+  "color": [
+    0.6666666865348816,
+    0.7607843279838562,
+    0.2235294133424759,
+    1.0
+  ],
+  "category": "Pehkui",
+  "category_index": 23,
+  "world_dependency": false,
+  "required_api": "pehkui",
+  "versions": [
+    "1.20.4_NeoForge",
+    "1.20.1_Forge"
+  ],
+  "components": {
+    "entity": {
+      "type": 0,
+      "variable_type": "Entity",
+      "variable_index": 2
+    },
+    "scale": {
+      "type": 3,
+      "dropdown_options": [
+        "HEIGHT",
+        "WIDTH",
+        "ATTACK_SPEED",
+        "BLOCK_REACH",
+        "ENTITY_REACH",
+        "HEALTH",
+        "JUMP_HEIGHT",
+        "MINING_SPEED",
+        "DEFENSE",
+        "HITBOX_HEIGHT",
+        "HITBOX_WIDTH",
+        "REACH",
+        "THIRD_PERSON",
+        "VIEW_BOBBING"
+      ]
+    },
+    "value": {
+      "type": 0,
+      "variable_type": "Number",
+      "variable_index": 5,
+      "default_value": 1.0
+    }
+  }
+}
