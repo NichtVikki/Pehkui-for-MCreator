@@ -1,0 +1,1 @@
+ScaleTypes.${field$scale}.getScaleData(${input$entity}).setTargetScale((float) ScaleOperations.SUBTRACT.applyAsDouble(ScaleTypes.${field$scale}.getScaleData(${input$entity}).getTargetScale(), ${input$value}));
