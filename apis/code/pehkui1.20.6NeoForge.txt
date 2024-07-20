@@ -5,5 +5,5 @@ repositories {
 }
     
 dependencies {
-	implementation 'com.github.Virtuoel:Pehkui:3.8.3-1.20.4-neoforge'
+	implementation 'com.github.Virtuoel:Pehkui:3.8.3-1.20.6-neoforge'
 }

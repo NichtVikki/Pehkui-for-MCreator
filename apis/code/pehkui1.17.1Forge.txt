@@ -5,7 +5,7 @@ repositories {
 }
 
 dependencies {
-    implementation fg.deobf("com.github.Virtuoel:Pehkui:3.8.0-1.17.1-forge")
+    implementation fg.deobf("com.github.Virtuoel:Pehkui:3.8.3-1.17.1-forge")
 }
 
 minecraft {
