@@ -8,3 +8,4 @@ DivideScale
 ResetScale
 pehkui
 MakePersistant
+scales

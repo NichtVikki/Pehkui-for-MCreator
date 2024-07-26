@@ -35,23 +35,8 @@
       "default_value": 1.0
     },
     "scale": {
-      "type": 3,
-      "dropdown_options": [
-        "HEIGHT",
-        "WIDTH",
-        "ATTACK_SPEED",
-        "BLOCK_REACH",
-        "ENTITY_REACH",
-        "HEALTH",
-        "JUMP_HEIGHT",
-        "MINING_SPEED",
-        "DEFENSE",
-        "HITBOX_HEIGHT",
-        "HITBOX_WIDTH",
-        "REACH",
-        "THIRD_PERSON",
-        "VIEW_BOBBING"
-      ]
+      "type": 4,
+      "datalist": "scales"
     }
   }
 }
