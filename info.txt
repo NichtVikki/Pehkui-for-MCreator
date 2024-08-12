@@ -1,6 +1,6 @@
 Pehkui
 pehkui
-1.0.6
+1.0.8
 VikkiVuk
 Support for pehkui procedures in mcreator
 Made with MCreator plugin builder by NerdyPuzzle
